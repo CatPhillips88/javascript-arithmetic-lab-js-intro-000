@@ -43,11 +43,10 @@ makeInt('20');
 function makeInt(n) {
   return parseInt(n, 10);
 }
-
 parseInt('0x2328', 10);
 
 function preserveDecimal(n) {
-  parseInt(n);
+  parseFloat(n);
   return n;
 }
 preserveDecimal('2.222');
