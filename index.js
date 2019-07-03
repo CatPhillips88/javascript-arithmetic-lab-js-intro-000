@@ -45,3 +45,9 @@ function makeInt(n) {
 }
 
 parseInt('0x2328', 10);
+
+function preserveDecimal(n) {
+  parseInt(n);
+  return n;
+}
+preserveDecimal('2.222');
